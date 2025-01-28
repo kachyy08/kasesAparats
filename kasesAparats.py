@@ -47,15 +47,101 @@ def Gaļas_atver_logu():
     Liellopu_gaļa.place(x= 80, y= 100)
     Cūkgaļa = Button(Gaļas_logs, text='Cūkgaļa', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Cūkgaļa"))
     Cūkgaļa.place(x= 80, y= 150)
-    Jēru_gaļa = Button(Gaļas_logs, text='Jēru gaļa', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Jēru gaļa"))
-    Jēru_gaļa.place(x= 80, y= 200)
+    Jēra_gaļa = Button(Gaļas_logs, text='Jēra gaļa', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Jēra gaļa"))
+    Jēra_gaļa.place(x= 80, y= 200)
+    Teļa_gaļa = Button(Gaļas_logs, text='Teļa gaļa', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Teļa gaļa"))
+    Teļa_gaļa.place(x= 270, y= 50)
+    Tītara_gaļa = Button(Gaļas_logs, text='Tītara gaļa', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Tītara gaļa"))
+    Tītara_gaļa.place(x= 270, y= 100)
+    Pīles_gaļa = Button(Gaļas_logs, text='Pīles gaļa', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Pīles gaļa"))
+    Pīles_gaļa.place(x= 270, y= 150)
+    Truša_gaļa = Button(Gaļas_logs, text='Truša gaļa', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Truša gaļa"))
+    Truša_gaļa.place(x= 270, y= 200)
+
+################## Graudu produkti
+def Graudu_produkti_atver_logu():
+
+    global Graudu_produkti_logs
+
+    Graudu_produkti_logs = Toplevel()
+    Graudu_produkti_logs.geometry('500x400')
+    Graudu_produkti_logs.title("Graudu produkti")
+    Griķi = Button(Graudu_produkti_logs, text='Griķi', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Griķi"))
+    Griķi.place(x= 80, y= 50)
+    Rīsi = Button(Graudu_produkti_logs, text='Rīsi', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Rīsi"))
+    Rīsi.place(x= 80, y= 100)
+    Makaroni = Button(Graudu_produkti_logs, text='Makaroni', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Makaroni"))
+    Makaroni.place(x= 80, y= 150)
+    Auzas = Button(Graudu_produkti_logs, text='Auzas', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Auzas"))
+    Auzas.place(x= 80, y= 200)
+    Grūbas = Button(Graudu_produkti_logs, text='Grūbas', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Grūbas"))
+    Grūbas.place(x= 270, y= 50)
+    Kvinoja = Button(Graudu_produkti_logs, text='Kvinoja', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Kvinoja"))
+    Kvinoja.place(x= 270, y= 100)
+    Kuskuss = Button(Graudu_produkti_logs, text='Kuskuss', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Kuskuss"))
+    Kuskuss.place(x= 270, y= 150)
+    Bulgurs = Button(Graudu_produkti_logs, text='Bulgurs', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Bulgurs"))
+    Bulgurs.place(x= 270, y= 200)
+
+################## Saldētie produkti
+def Saldētie_produkti_atver_logu():
+
+    global Saldētie_produkti_logs
+
+    Saldētie_produkti_logs = Toplevel()
+    Saldētie_produkti_logs.geometry('500x400')
+    Saldētie_produkti_logs.title("Graudu produkti")
+    Pelmeņi = Button(Saldētie_produkti_logs, text='Pelmeņi', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Pelmeņi"))
+    Pelmeņi.place(x= 80, y= 50)
+    Dārzeņu_maisijums = Button(Saldētie_produkti_logs, text='Dārzeņu maisijums', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Dārzeņu maisijums"))
+    Dārzeņu_maisijums.place(x= 80, y= 100)
+    Augļu_maisijums = Button(Saldētie_produkti_logs, text='Augļu maisijums', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Augļu maisijums"))
+    Augļu_maisijums.place(x= 80, y= 150)
+    Frī_kartupeļi = Button(Saldētie_produkti_logs, text='Frī kartupeļi', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Frī kartupeļi"))
+    Frī_kartupeļi.place(x= 80, y= 200)
+    Saldējums = Button(Saldētie_produkti_logs, text='Saldējums', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Saldējums"))
+    Saldējums.place(x= 270, y= 50)
+    Pica = Button(Saldētie_produkti_logs, text='Pica', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Pica"))
+    Pica.place(x= 270, y= 100)
+    Kārtainā_mīkla = Button(Saldētie_produkti_logs, text='Kārtainā mīkla', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Kārtainā mīkla"))
+    Kārtainā_mīkla.place(x= 270, y= 150)
+    Ledus = Button(Saldētie_produkti_logs, text='Ledus', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Ledus"))
+    Ledus.place(x= 270, y= 200)
+
+################## Piena produkti 
+def piena_produkti_atver_logs():
+
+    global piena_produkti_logs
+
+    piena_produkti_logs = Toplevel()
+    piena_produkti_logs.geometry('500x400')
+    piena_produkti_logs.title("Piena produkti")
+    Piens = Button(piena_produkti_logs, text='Piens', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Piens"))
+    Piens.place(x= 80, y= 50)
+    Siers = Button(piena_produkti_logs, text='Siers', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Siers"))   
+    Siers.place(x=80, y= 100)
+    Biezpiens = Button(piena_produkti_logs, text='Biezpiens', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Biezpiens"))  
+    Biezpiens.place(x= 80, y= 150)
+    Krējums = Button(piena_produkti_logs, text='Krējums', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Krējums"))  
+    Krējums.place(x= 80, y= 200)
+    Saldais_krējums = Button(piena_produkti_logs, text='Saldais krējums', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Saldais krējums"))  
+    Saldais_krējums.place(x= 270, y= 50)
+    Paniņas = Button(piena_produkti_logs, text='Paniņas', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Paniņas"))  
+    Paniņas.place(x= 270, y= 100)
+    Sviests = Button(piena_produkti_logs, text='Sviests', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Sviests"))  
+    Sviests.place(x=270, y= 150)
+    Jogurts = Button(piena_produkti_logs, text='Jogurts', fg='white', bg='#3b3b3b', width=12, height=2, command= lambda: lietotaja_izvēle("Jogurts"))  
+    Jogurts.place(x=270, y= 200)
+
+
+
 
 ####################################### pogas
 augli_darzeni_poga = Button(logs, text='Augļu un dārzeņi', fg='white', bg='#3b3b3b', width=30, height=3, command=augļi_darzeņi_logs)
 gaļas_poga = Button(logs, text='Gaļas', fg='white', bg='#3b3b3b', width=30, height=3, command=Gaļas_atver_logu)
-graudu_produkti_poga =Button(logs, text='Graudu produkti', fg='white', bg='#3b3b3b', width=30, height=3)
-saldētie_produkti_poga = Button(logs, text='Saldētie produkti', fg='white', bg='#3b3b3b', width=30, height=3)
-piena_produkti_poga =Button(logs, text='Piena produkti', fg='white', bg='#3b3b3b', width=30, height=3)
+graudu_produkti_poga =Button(logs, text='Graudu produkti', fg='white', bg='#3b3b3b', width=30, height=3, command=Graudu_produkti_atver_logu)
+saldētie_produkti_poga = Button(logs, text='Saldētie produkti', fg='white', bg='#3b3b3b', width=30, height=3, command=Saldētie_produkti_atver_logu)
+piena_produkti_poga =Button(logs, text='Piena produkti', fg='white', bg='#3b3b3b', width=30, height=3, command=piena_produkti_atver_logs)
 
 
 augli_darzeni_poga.place(x= 85, y = 60)
